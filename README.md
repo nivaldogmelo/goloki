@@ -12,7 +12,7 @@ Acertar configurações do Loki: ir em `pkg/goloki/goloki.go` e modificar o
 		"http://localhost:3100",
 ```
 
-Acertar tempo de intervalo entre os logs: ir em `Dockerfile` e trocar o entrypoint
+Acertar tempo de intervalo entre os logs: ir em `Dockerfile` e trocar o entrypoint (No tsuru pode adicionar um Procfile aí e acertar por lá o valor)
 
 ```
 # O 1 significa para gerar log a cada 1s, pode colocar 0.500 para 500ms ou 0.001 para 1ms, o quanto quiser
